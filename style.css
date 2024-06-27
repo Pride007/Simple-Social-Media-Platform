@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#posts {
+    margin-top: 20px;
+}
+
+.post {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post .username {
+    font-weight: bold;
+}
+
+.post .content {
+    margin: 10px 0;
+}
+
+.post .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post .actions button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.3s;
+}
+
+.post .actions button:hover {
+    color: #0056b3;
+}
+
+.comment-section {
+    margin-top: 10px;
+}
+
+.comment-section .comment-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.comment-section input {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.comment {
+    background: #e9e9e9;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
